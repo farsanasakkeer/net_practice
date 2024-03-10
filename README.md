@@ -1,7 +1,8 @@
 # net_practice
 
-he following special address-ranges are reserved for Private Networks:
+The following special address-ranges are reserved for Private Networks:
 10.0.0.0 – 10.255.255.255 172.16.0.0 – 172.31.255.255 192.168.0.0 – 192.168.255.255 
+
 The following address-range is reserved for so called loopback addresses: 127.0.0.0 – 127.255.255.255
 
 Switches
