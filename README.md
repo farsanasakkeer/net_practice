@@ -21,15 +21,25 @@ The next hop is the address of the next router that you need to send the packa
 CIDR	Dot-decimal	Number of IP-addresses
 per subnet	Usable IP-addresses
 per subnet	Number of subnets
+
 /32	255.255.255.255	1	0	256
+
 /31	255.255.255.254	2	0	128
+
 /30	255.255.255.252	4	2	64
+
 /29	255.255.255.248	8	6	32
+
 /28	255.255.255.240	16	14	16
+
 /27	255.255.255.224	32	30	8
+
 /26	255.255.255.192	64	62	4
+
 /25	255.255.255.128	128	126	2
+
 /24	255.255.255.0	256	254	1
+
 
 first address is reserved as the network-address of the subnet and the last address is reserved as a broadcast-adress.
 i.e. for mask 255.255.255.252:
